@@ -1,6 +1,13 @@
+/*
+  Chris Nethercott / ThorinDev
+  TemperatureLCD
+*/
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h> 
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #include <LiquidCrystal.h>
+
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 const int switchPin = 6;
 
