@@ -59,6 +59,6 @@ void printTemperature(DeviceAddress deviceAddress) {
     lcd.print(tempC);
   }
   else {
-    lcd.print("Error");
+    lcd.print("Failed");
   }
 }
