@@ -8,7 +8,7 @@
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 const int switchPin = 6;
 
-//Pin Nymbers
+//Pin Numbers
 #define ONE_WIRE_BUS_PIN 6
 
 //Library Stuff
