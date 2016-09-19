@@ -24,7 +24,6 @@ void setup() {
   sensors.setResolution(black_probe, 10);
   sensors.setResolution(red_probe, 10);
   sensors.setResolution(green_probe, 10);
-  pinMode(switchPin, INPUT);
 }
 
 void loop() {
