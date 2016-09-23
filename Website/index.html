@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>OpenDay</title>
+  <link rel="icon" href="favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="openday.css">
 </head>
 <body>
   <div class="container">
@@ -14,16 +16,33 @@
         <h5>Welcome to Open Day! Look at what programming can do</h5>
         <h5>This page is written in HTML, CSS, JS and PHP</h5>
       </div>
-       <div class="six column">
-        <hr>
-        <form action="dgs.php" method="post">
-          What is your name? <input type="text" name="name" style="margin-left: 1em; width:65%" placeholder="Enter your name here!">
-          <br>
-          How old are you?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="age" min="1" style="margin-left: 1.0em; margin-top:1em; width:65%" placeholder="Enter your age here!">
-          <br>
-          <input type="submit" style="margin-top:3em;">
-        </form>
-      </div>
+    </div>
+    <div class="six column">
+      <hr>
+      <form action="dgs.php" method="post">
+        <p>What is your name?</p>
+        <input type="text" name="name" id="input" placeholder="Enter your name here!">
+        <br>
+        <p>How old are you?</p>
+        <input type="number" name="age" min="1" id="input" placeholder="Enter your age here!">
+        <br>
+        <p>Which year are you looking to join?</p>
+        <select name="year" id="input">
+          <option value="03">Year 3</option>
+          <option value="04">Year 4</option>
+          <option value="05">Year 5</option>
+          <option value="06">Year 6</option>
+          <option value="07">Year 7</option>
+          <option value="08">Year 8</option>
+          <option value="09">Year 9</option>
+          <option value="10">Year 10</option>
+          <option value="11">Year 11</option>
+          <option value="12">Year 12</option>
+          <option value="13">Year 13</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
     </div>
   </div>
 </body>
